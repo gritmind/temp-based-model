@@ -14,7 +14,6 @@ We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment 
 `~$ conda env create -f environment-tensorflow-1.yml`. You can check python libraries for this project in those .yml files.
 
 ## Dataset
-* AG's news dataset [[download](https://drive.google.com/open?id=1XbrUZk3_PFVEp7zkZVrNgnRRlXKgNWt3)]. 
 * Stanford Sentiment Treebank(SST) dataset [[download](https://drive.google.com/open?id=1_trnJGAc3GWcdR69trBxGbWkKFFVZSkx)]
 
 ## Pre-trained Word Embedding Model
@@ -22,7 +21,7 @@ We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment 
 
 
 ## Usage
-
+0. 
 
 ## Contribution
 * 시간적 의존성을 시간적 순차성과 통합성으로 분해하고 이들을 단어와 문서 표상을 모델링하는 기준으로 사용
