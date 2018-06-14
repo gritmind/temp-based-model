@@ -6,7 +6,8 @@
 
 문서 분류를 위한 신경망은 내부적으로 단어와 문서 표상을 단계적으로 모델링한다. 시간적 순차성을 기반으로 단어 표상을 모델링하기 위해 워드 임베딩, 컨볼루션, 순환 모듈을 사용한다. 시간적 통합성을 기반으로 문서 표상을 모델링하기 위해 최대 풀링, 주의 메카니즘을 사용한다. 
 
-:page_with_curl: 본 연구는 논문으로도 작성됨: 문서 분류를 위한 시간적 순차성과 통합성 기반 심층 신경망 모델 설계, 한국컴퓨터종합학술대회(KCC2018)
+:page_with_curl: 본 연구는 논문으로 작성됨
+   * 문서 분류를 위한 시간적 순차성과 통합성 기반 심층 신경망 모델 설계, 한국컴퓨터종합학술대회(KCC2018)
 
 
 ## Prerequisites 
@@ -19,9 +20,23 @@ We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment 
 ## Pre-trained Word Embedding Model
 * GloVe [[download](https://nlp.stanford.edu/projects/glove/)]
 
-
 ## Usage
-0. 
+0. **Select Command**: for multiple programs at once, we select commands to be executed in `1_root_vocab.py` and `2_root_model.py` (arguments for core files (i.e. commands) are described in those files)
+
+1. **Build Vocabulary** (according to (1)dataset and (2)preprocessing-type); data description is also saved.
+```
+~$ python 1_root_vocab.py
+```
+
+2. **Tune Model**
+```
+~$ python 2_root_model.py --tune
+```
+
+3. **Test Model**
+```
+~$ python 2_root_model.py --test
+```
 
 ## Contribution
 * 시간적 의존성을 시간적 순차성과 통합성으로 분해하고 이들을 단어와 문서 표상을 모델링하는 기준으로 사용
@@ -29,7 +44,7 @@ We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment 
 
 
 ## Summary
-* 직렬로 신경망을 확장하는 것뿐만 아니라 병렬로 확장하는 것 또한 의미 있음. 
+* 직렬로 신경망을 확장하는 것뿐만 아니라 병렬로 확장하는 것 또한 의미있음. 
 
 
 ## Acknowledgement
