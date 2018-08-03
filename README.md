@@ -12,7 +12,7 @@
    * 문서 표상을 위해 통합성 기반으로 최대 풀링, 주의 메카니즘을 사용
 * SST와 AG's news 데이터셋으로 제안 모델의 성능을 입증
 
-본 연구는 2018 한국컴퓨터종합학술대회(KCC2018)에 "문서 분류를 위한 시간적 순차성과 통합성 기반 심층 신경망 모델 설계"로 발표(2018년6월21일) 및 게재가 되었음. [논문], [[발표](https://1drv.ms/p/s!AllPqyV9kKUrkXwn-OdLaVH1P_od)]
+본 연구는 2018 한국컴퓨터종합학술대회(KCC2018)에 "문서 분류를 위한 시간적 순차성과 통합성 기반 심층 신경망 모델 설계"로 발표(2018년6월21일) 및 게재가 되었음. [[논문](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07503243)], [[발표](https://1drv.ms/p/s!AllPqyV9kKUrkXwn-OdLaVH1P_od)]
 
 
 ## Prerequisites 
