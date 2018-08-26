@@ -1,6 +1,6 @@
 # Design Deep Neural Network Models based on Temporal Sequentiality and Integration for Document Classification
 
-
+문서를 좀 더 잘 이해할 수 있는 새로운 신경망 모델을 설계하였다. 이를 위해 시간적 특징을 시간적 순차성과 통합성과 같이 두 가지로 분리해서 이해하였고 이를 신경망 모듈들을 조합하는 데 기준으로 삼았다. 사용되는 신경망 모듈로는 순환 구조, 컨볼루션, 워드 임베딩 주의 메카니즘, 최대 풀링 등이 있다.
 
 ![](/assets/model.PNG)
 
