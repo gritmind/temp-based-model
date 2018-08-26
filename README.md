@@ -1,11 +1,5 @@
 # Design Deep Neural Network Models based on Temporal Sequentiality and Integration for Document Classification
 
-* 문서에 대한 이해도가 높은 새로운 신경망 모델 설계
-* 시간적 특징을 시간적 순차성과 시간적 통합성으로 구분해서 정의
-* 다양한 신경망 모듈들을 정의된 문서와 시간적 특징에 맞게 직/병렬로 조합
-   - 계층구조와 같이 단어와 문서를 단계적으로 모델링함
-   - 단어 표상을 위해 시간적 순차성 기준으로 워드 임베딩, 컨볼루션, 순환 구조를 사용
-   - 문서 표상을 위해 시간적 통합성 기준으로 최대 풀링, 주의 메커니즘을 사용
 
 
 ![](/assets/model.PNG)
@@ -44,11 +38,15 @@ We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment 
 ## Contribution
 * 시간적 의존성을 시간적 순차성과 통합성으로 분해하고 이들을 단어와 문서 표상을 모델링하는 기준으로 사용
 * 컨볼루션, 순환, 주의 메카니즘, 워드 임베딩을 모두 사용하는 새로운 조합의 심층 신경망
-
+* 직렬로 신경망을 확장하는 것뿐만 아니라 병렬로 확장하는 방법도 의미 있음. 
 
 ## Summary
-* 직렬로 신경망을 확장하는 것뿐만 아니라 병렬로 확장하는 것 또한 의미있음. 
-
+* 문서에 대한 이해도가 높은 새로운 신경망 모델 설계
+* 시간적 특징을 시간적 순차성과 시간적 통합성으로 구분해서 정의
+* 다양한 신경망 모듈들을 정의된 문서와 시간적 특징에 맞게 직/병렬로 조합
+   - 계층구조와 같이 단어와 문서를 단계적으로 모델링함
+   - 단어 표상을 위해 시간적 순차성 기준으로 워드 임베딩, 컨볼루션, 순환 구조를 사용
+   - 문서 표상을 위해 시간적 통합성 기준으로 최대 풀링, 주의 메커니즘을 사용
 
 ## Acknowledgement
 Korea Institute of Science and Technology Information (KISTI) <br>
