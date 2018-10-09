@@ -50,6 +50,9 @@ We use Anaconda3-5.0.1-Linux-x86_64.sh. You can create a new vitual environment 
    - 단어 표상을 위해 시간적 순차성 기준으로 워드 임베딩, 컨볼루션, 순환 구조를 사용
    - 문서 표상을 위해 시간적 통합성 기준으로 최대 풀링, 주의 메커니즘을 사용
 
+## Further Study
+* 기존에 있는 신경망 모듈들을 조합하는 것을 넘어 순차성과 통합성 특징을 기준으로 새로운 신경망 모듈을 설계하는 
+
 ## Acknowledgement
 Korea Institute of Science and Technology Information (KISTI) <br>
 University of Science and Technology (UST) <br>
